@@ -23,13 +23,13 @@ describe('AppComponent', () => {
   it(`should have as title 'iamnotafed'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('iamnotafed');
+    expect(app.Title).toEqual('Frontend Dev');
   });
 
-  it('should render title in a h1 tag', () => {
+  it('should render video in section tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to iamnotafed!');
+    expect(compiled.querySelector('section > video > source').textContent).toBeDefined('Welcome to iamnotafed!');
   });
 });

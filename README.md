@@ -1,5 +1,7 @@
 # Iamnotafed
 
+[![Build Status](https://travis-ci.com/slawinski/iamnotafed.svg?branch=master)](https://travis-ci.com/slawinski/iamnotafed)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
 ## Development server

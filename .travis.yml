@@ -1,4 +1,23 @@
-sudo: required
+dist: trusty
+sudo: false
+
 language: node_js
 node_js:
-  - "10"
+  - '8'
+
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+
+cache:
+  directories:
+    - ./node_modules
+
+install:
+  - npm install
+
+script:
+  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox

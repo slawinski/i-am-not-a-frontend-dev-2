@@ -9,6 +9,8 @@ export class WelcomeComponent implements OnInit {
 
   constructor() { }
 
+  Title = 'Frontend Dev';
+
   ngOnInit() {
   }
 

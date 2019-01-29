@@ -1,0 +1,22 @@
+.flex-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to left bottom, #1f3b65, #75517c, #b66f81, #de9c83, #edd297);
+ }
+
+.subtitle {
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000; }
+
+.subtitle h3 {
+  color: #DDE2E3;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.avatar img {
+  border: 10px solid;
+  border-color: #DDE2E3;
+  border-radius: 50%;
+}

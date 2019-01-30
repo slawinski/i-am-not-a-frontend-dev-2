@@ -27,3 +27,13 @@
   display: flex;
   justify-content: center;
 }
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}

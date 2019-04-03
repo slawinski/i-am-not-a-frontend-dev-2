@@ -28,11 +28,21 @@ video {
   text-shadow: 2px 2px 4px #000000;
 }
 .title h1 {
-  color: #dde2e3;
+  color: #fafafa;
   font-family: 'Pacifico', cursive;
-  font-size: 5em;
+  font-size: 10vw;
 }
 .title h3 {
-  color: #dde2e3;
+  color: #fafafa;
   font-family: 'Oswald', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 420px) {
+  .title h1 {
+    font-size: 45px;
+  }
+  .title h3 {
+    font-size: 25px;
+  }
 }
